@@ -1,13 +1,14 @@
 /* Reset */
 * {
   margin: 0;
-  padding:0;
+  padding: 0;
   box-sizing: border-box;
 }
 
 /* Main Styling */
-html,body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+html,
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.7em;
 }
 
@@ -16,15 +17,15 @@ a {
   text-decoration: none;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   padding-bottom: 20px;
 }
 
 p {
   margin: 10px 0;
 }
-
-
 
 /* Utility Classes */
 .container {
@@ -35,7 +36,7 @@ p {
 }
 
 .text-primary {
-  color: #f7c08a;
+  color: #df9750;
 }
 
 .lead {
@@ -54,9 +55,9 @@ p {
 }
 
 .btn:hover {
-  background: #f7c08a;
+  background: #df9750;
   color: #333;
-  transition: .5s ease;
+  transition: 0.5s ease;
 }
 
 .btn-light {
@@ -70,12 +71,12 @@ p {
 }
 
 .bg-light {
-  background: #f4f4f4;
+  background: #e0dbdb;
   color: #333;
 }
 
 .bg-primary {
-  background: #f7c08a;
+  background: #df9750;
   color: #333;
 }
 
@@ -88,17 +89,23 @@ p {
 }
 
 /* Padding */
-.py-1 { padding: 10px 0; }
-.py-2 { padding: 20px 0; }
-.py-3 { padding: 30px 0; }
+.py-1 {
+  padding: 10px 0;
+}
+.py-2 {
+  padding: 20px 0;
+}
+.py-3 {
+  padding: 30px 0;
+}
 
 /* Navbar */
 #navbar {
   background: #333;
   color: #fff;
   overflow: auto;
+  padding: 0.001px;
 }
-
 
 #navbar a {
   color: #fff;
@@ -124,20 +131,19 @@ p {
   text-align: center;
 }
 
-#navbar ul li a:hover, 
+#navbar ul li a:hover,
 #navbar ul li a.current {
   background: #444;
-  color: #f7c08a;
-  transition: .5s;
+  color: #df9750;
+  transition: 0.5s;
 }
 /* Logo Styling */
 
 #navbar a:hover {
   background: none;
-  color: #f7c08a;
-  transition: .5s ease;
+  color: #df9750;
+  transition: 0.5s ease;
 }
-
 
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky {
@@ -148,7 +154,7 @@ p {
 
 /* Showcase */
 #showcase {
-  background: url('../img/showcase.jpg') no-repeat center center/cover;
+  background: url("../img/showcase.jpg") no-repeat center center/cover;
   height: 600px;
 }
 
@@ -176,7 +182,7 @@ p {
 #home-info .info-img {
   float: left;
   width: 50%;
-  background: url('../img/photo-1.jpg') no-repeat;
+  background: url("../img/photo-1.jpg") no-repeat;
   min-height: 100%;
 }
 
@@ -198,7 +204,7 @@ p {
   float: left;
   width: 33.3%;
   padding: 50px;
-  text-align:center;
+  text-align: center;
 }
 
 .box i {
@@ -228,7 +234,7 @@ p {
 /* Testimonials */
 #testimonials {
   height: 600px;
-  background: url('../img/test-bg.jpg') no-repeat center center/cover;
+  background: url("../img/test-bg.jpg") no-repeat center center/cover;
   padding-top: 100px;
 }
 
@@ -262,7 +268,7 @@ p {
   margin-bottom: 5px;
 }
 
-#contact-form input, 
+#contact-form input,
 #contact-form textarea {
   width: 100%;
   padding: 10px;
@@ -274,10 +280,10 @@ p {
   resize: none;
 }
 
-#contact-form input:focus, 
+#contact-form input:focus,
 #contact-form textarea:focus {
   outline: none;
-  border-color: #f7c08a;
+  border-color: #df9750;
 }
 
 /* Footer */
